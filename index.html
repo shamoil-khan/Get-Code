@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+    <link rel="stylesheet" href="CSS/cards.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Get Code</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="">.getCode</a></div>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#code">Code</a>
+        <!-- <a href="#payOnline">Pay Online</a> -->
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <label>
+          <div class="icon"></div>
+        </label>
+      </div>
+    </header>
+
+    <section id="home">
+      <div class="heading">Get Free Source Code</div>
+      <!-- <button class="complete">Get Complete Source Code</button> -->
+    </section>
+
+    <section id="code">
+      <div class="custom-card my-card">
+        <figure class="card-image">
+          <img src="./img/bg.jpg" class="rounded-image" />
+        </figure>
+        <div class="card-body text-center">
+          <h2 class="card-title">
+            Image Gallery And Viewer Using HTML , CSS & JS
+          </h2>
+          <div class="card-actions">
+            <a href="./ex.zip" download>
+              <button
+                title="Download"
+                class="my-btn downloadBtn"
+                data-src="./ex.zip"
+              >
+                <span> Download </span>
+                <div id="downloadIcon"></div>
+              </button>
+            </a>
+            <button
+              class="bx bx-play my-btn watchBtn"
+              data-src="https://www.youtube.com/watch?v=Ggn2b_QEKjY"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Contact Me!</h2>
+
+        <form action="#">
+          <div class="input-box">
+            <div class="input-field field">
+              <input
+                type="text"
+                placeholder="Full Name"
+                id="name"
+                class="item"
+                autocomplete="off"
+              />
+              <div class="error-txt">Full Name can't be blank</div>
+            </div>
+
+            <div class="input-field field">
+              <input
+                type="text"
+                placeholder="Email Address"
+                id="email"
+                class="item"
+                autocomplete="off"
+              />
+              <div class="error-txt email">Email Address can't be blank</div>
+            </div>
+          </div>
+
+          <div class="input-box">
+            <div class="input-field field">
+              <input
+                type="text"
+                placeholder="Phone Number"
+                id="phone"
+                class="item"
+                autocomplete="off"
+              />
+              <div class="error-txt">Phone Number can't be blank</div>
+            </div>
+
+            <div class="input-field field">
+              <input
+                type="text"
+                placeholder="Subject"
+                id="subject"
+                class="item"
+                autocomplete="off"
+              />
+              <div class="error-txt">Subject can't be blank</div>
+            </div>
+          </div>
+
+          <div class="textarea-field field">
+            <textarea
+              name=""
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+              class="item"
+              autocomplete="off"
+            ></textarea>
+            <div class="error-txt">Message can't br blank</div>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <h2>.getCode</h2>
+      <p>Get Free Source Code</p>
+
+      <h3>Follow me on</h3>
+
+      <div class="social-links">
+        <a
+          href="https://www.youtube.com/@imjex-developer"
+          target="_blank"
+          class="link"
+          data-text="YouTube"
+        ></a>
+        <a
+          href="./comingSoon.html"
+          target="_blank"
+          class="link"
+          data-text="Facebook"
+        ></a>
+        <a
+          href="./comingSoon.html"
+          target="_blank"
+          class="link"
+          data-text="Twitter"
+        ></a>
+        <a
+          href="./comingSoon.html"
+          target="_blank"
+          class="link"
+          data-text="Linkedin"
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="JS/vanilla-tilt.js" type="text/javascript"></script>
+    <script src="JS/app.js"></script>
+    <script src="JS/code.js"></script>
+    <script src="JS/download.js"></script>
+  </body>
+</html>
