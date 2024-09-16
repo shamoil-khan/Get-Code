@@ -5,7 +5,7 @@ downloadBtn.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     let aTag = document.createElement("a");
     aTag.setAttribute("href", e.target.getAttribute("data-src"));
-    aTag.setAttribute("download", "ex");
+    aTag.setAttribute("download", "download");
     document.body.appendChild(aTag);
 
     aTag.click();
